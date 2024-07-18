@@ -164,7 +164,7 @@ function addTocart(name, price)
             Toastify({
                 text: "Ops o restaurante está fechado!",
                 duration: 3000,
-                destination: "https://github.com/diessicamattos?tab=repositories",
+                destination: "https://github.com/diessicamattos",
                 newWindow: true,
                 close: true,
                 gravity: "top", // `top` or `bottom`
