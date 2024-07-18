@@ -10,6 +10,7 @@ const addressInput = document.getElementById("address")
 const addressInputwarn = document.getElementById("address-warn")
 
 
+
 let cart = [];
 
 
@@ -163,6 +164,7 @@ function addTocart(name, price)
             Toastify({
                 text: "Ops o restaurante está fechado!",
                 duration: 3000,
+                destination: "https://github.com/diessicamattos?tab=repositories",
                 newWindow: true,
                 close: true,
                 gravity: "top", // `top` or `bottom`
